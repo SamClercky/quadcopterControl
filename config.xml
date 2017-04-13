@@ -2,7 +2,6 @@
 <widget id="fr.reglisse44.quadcopter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>SAM Controller</name>
     <preference name="Orientation" value="landscape" />
-    <preference name="SplashScreen" value="screen" />
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
@@ -11,5 +10,4 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <plugin name="SplashScreen" value="org.apache.cordova.SplashScreen"/>
 </widget>
