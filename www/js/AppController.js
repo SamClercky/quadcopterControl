@@ -23,7 +23,7 @@ app.controller('AppController', function($scope, $rootScope){
 
 	$scope.initWebsocket = function(){
 		console.log('conection en cours');
-		$rootScope.ws = new WebSocket("ws://192.168.10.1/chatsocket");
+		$rootScope.ws = new WebSocket("ws://raspberrypi/chatsocket");
 
 
 
